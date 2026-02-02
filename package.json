@@ -1,13 +1,22 @@
 {
-  "name": "backand-nodejs",
+  "name": "portfolio-backend-nodejs",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Backend API em Node.js puro para processar formulário de contato do portfólio pessoal",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "portfolio",
+    "contact-form",
+    "api",
+    "nodejs",
+    "backend"
+  ],
+  "author": "Vinicius Vivet",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
